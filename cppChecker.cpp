@@ -43,7 +43,7 @@ using namespace std;
 int main()
 {
 	// Strings Declared
-	char str1[] = "Hello Geeks!";
+	 char str1[] = "Hello Geeks!";
 	char str2[] = "GeeksforGeeks";
 
 	char str3[40];

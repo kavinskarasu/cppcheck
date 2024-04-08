@@ -20,19 +20,19 @@
 //   [out]               LPPROCESS_INFORMATION lpProcessInformation
 // );
 
-BOOL CreateProcessAsUserW                                      (
-  [in, optional]      HANDLE                hToken,
-  [in, optional]      LPCWSTR               lpApplicationName,
-  [in, out, optional] LPWSTR                lpCommandLine,
-  [in, optional]      LPSECURITY_ATTRIBUTES lpProcessAttributes,
-  [in, optional]      LPSECURITY_ATTRIBUTES lpThreadAttributes,
-  [in]                BOOL                  bInheritHandles,
-  [in]                DWORD                 dwCreationFlags,
-  [in, optional]      LPVOID                lpEnvironment,
-  [in, optional]      LPCWSTR               lpCurrentDirectory,
-  [in]                LPSTARTUPINFOW        lpStartupInfo,
-  [out]               LPPROCESS_INFORMATION lpProcessInformation
-);
+// BOOL CreateProcessAsUserW                                      (
+//   [in, optional]      HANDLE                hToken,
+//   [in, optional]      LPCWSTR               lpApplicationName,
+//   [in, out, optional] LPWSTR                lpCommandLine,
+//   [in, optional]      LPSECURITY_ATTRIBUTES lpProcessAttributes,
+//   [in, optional]      LPSECURITY_ATTRIBUTES lpThreadAttributes,
+//   [in]                BOOL                  bInheritHandles,
+//   [in]                DWORD                 dwCreationFlags,
+//   [in, optional]      LPVOID                lpEnvironment,
+//   [in, optional]      LPCWSTR               lpCurrentDirectory,
+//   [in]                LPSTARTUPINFOW        lpStartupInfo,
+//   [out]               LPPROCESS_INFORMATION lpProcessInformation
+// );
 
 
  
@@ -55,12 +55,12 @@ int main()
 	// strcpy(str2,
   
   //  str1);
-	strcpy(str3, "Copy successful");
-	std::strcpy(str4, str5);
+	// strcpy(str3, "Copy successful");
+	// std::strcat(str4, str5);
 
 	// Strings Printed
-	cout << "str1: " << str1 << "\nstr2: " << str2
-		<< "\nstr3: " << str3 << "\nstr4: " << str4;
+	// cout << "str1: " << str1 << "\nstr2: " << str2
+	// 	<< "\nstr3: " << str3 << "\nstr4: " << str4;
 
 
 
